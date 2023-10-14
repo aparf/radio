@@ -25,7 +25,8 @@ function fetchData() {
 
       for (var i = 1; i < data.values.length; i++) {
         // condition required to check for repeated suggestions
-        if (!newMessages.includes(data.values[i][1])) {
+        if (!newMessages.includes(data.values[i][1]) && (data.values[i][1] != undefined)) {
+          console.log(data.values[i][1])
           newMessages.push(data.values[i][1]);
           newLinks.push(data.values[i][3]);
         }

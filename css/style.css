@@ -19,7 +19,6 @@ body{
   width: 100%;
   height: 100%;
 
-  opacity: 0.05;
   position: absolute;
 
   background-image: url('../pixil-frame-0.png');
@@ -33,6 +32,8 @@ body{
   font-size: 50px;
   color: inherit;
   text-decoration: inherit;
+  background: #e8e8e6;
+  padding: 7px;
 }
 
 #container{
